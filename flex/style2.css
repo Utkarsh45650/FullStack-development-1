@@ -1,0 +1,15 @@
+.box {
+  display: flex;
+  background-color: rgb(96 139 168 / 0.2);
+  /* border: 2px dotted rgb(96 139 168); */
+}
+
+.box > * {
+  padding: 20px;
+  border: 2px solid rgb(96 139 168);
+  border-radius: 5px;
+  background-color: rgb(96 139 168 / 0.2);
+}
+.push {
+  margin-left: auto;
+}

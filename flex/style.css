@@ -1,0 +1,19 @@
+.form {
+  height: 700px;
+}
+
+
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid rgb(96 139 168); */
+}   
+
+.form div {
+  width: 200px;
+  height: 250px;
+  border: 2px solid rgb(96 139 168);
+  border-radius: 5px;
+  background-color: rgb(96 139 168 / 0.2);
+}
