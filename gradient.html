@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1 {
+            width: 500px;
+            height: 500px;
+            background:  linear-gradient(blue, green) padding-box, linear-gradient(red, yellow) border-box;
+            border: 10px solid transparent;
+            border-radius: 50%;
+        }
+        .box2 {
+            width: 500px;
+            height: 500px;
+            background: conic-gradient(from 90deg, red, yellow, green, blue, purple, red);
+        }
+        .box3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            border: 2px solid black;
+            background: conic-gradient(from 0deg, rgb(0, 119, 255) 0deg, rgb(0, 38, 255) 140deg, blue 190deg, white, white);
+        }
+        .box4 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            background-color: white;
+            border: 2px solid black;
+            font-size: 5rem;
+        }
+        .text {
+            font-size: 10rem;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            background: linear-gradient(rgb(136, 40, 151), rgb(209, 108, 125));
+            background-clip: text;
+            color: transparent;
+            -webkit-text-stroke: 10px ;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3">
+        <div class="box4">85%</div>
+    </div>
+    <div class="text">CRAZY</div>
+</body>
+</html>
