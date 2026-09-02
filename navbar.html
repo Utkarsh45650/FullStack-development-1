@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar {
+            display: flex;
+            direction: row;
+            justify-content: space-between;
+            border: 2px solid rgb(96, 139, 168);
+            padding: 10px;
+            border-radius: 5px;
+            background-color: rgb(96, 139, 168, 0.5);
+        }
+        .navbar .icon {
+            margin-left: 20px;
+            border: 2px solid rgb(96, 139, 168);
+            border-radius: 5px;
+            height: 40px;
+            width: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: grey;
+        }
+        .navbar .tab {
+            display: flex;
+            direction: row;
+            justify-content: space-between;
+            margin-right: 20px;
+        }
+        .navbar .tab .tabs {
+            margin: 0 10px;
+            border: 2px solid rgb(96, 139, 168);
+            border-radius: 5px;
+            height: 40px;
+            width: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="icon">Icon</div>
+        <div class="tab">
+            <div class="tabs">Home</div>
+            <div class="tabs">About</div>
+            <div class="tabs">Contact</div>
+            <div class="tabs">Services</div>
+        </div>
+    </div>
+</body>
+</html>

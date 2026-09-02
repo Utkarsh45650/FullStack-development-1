@@ -1,0 +1,133 @@
+.overlay {
+    display: flex;
+    flex-direction: row;
+    margin: 1% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+    box-shadow: 0 0 10px rgb(32, 40, 46);
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    margin: 1% 1% 0 1%;
+    padding: 1% 1% 0 1%;
+    background-color: rgb(32, 40, 46);
+    color: white;
+    box-shadow: 0 0 8px rgb(32, 40, 46);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    flex-basis: 15%;
+    height: auto;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 85%;
+}
+
+.dashboard .heading {
+    display: flex;
+    margin: 1% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+    box-shadow: 0 0 10px rgb(32, 40, 46);
+    border-radius: 5px;
+    height: auto;
+    width: 600px;
+    flex-direction: row;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.dashboard .stats {
+    display: flex;
+    margin: 1% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+    flex-direction: row;
+    font-size: 1.5rem;
+    justify-content: space-between;
+}
+
+.dashboard .stats .user {
+    display: flex;
+    margin: 1% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+    box-shadow: 0 0 10px rgb(32, 40, 46);
+    border-radius: 5px;
+    height: auto;
+    width: 15%;
+    flex-direction: row;
+    font-size: 1.5rem;
+    justify-content: center;
+    height: 200px;
+}
+
+.dashboard .stats .product {
+    display: flex;
+    margin: 1% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+    box-shadow: 0 0 10px rgb(32, 40, 46);
+    border-radius: 5px;
+    height: auto;
+    width: 15%;
+    flex-direction: row;
+    font-size: 1.5rem;
+    justify-content: center;
+    height: 200px;
+}
+
+.dashboard .stats .order {
+    display: flex;
+    margin: 1% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+    box-shadow: 0 0 10px rgb(32, 40, 46);
+    border-radius: 5px;
+    height: auto;
+    width: 15%;
+    flex-direction: row;
+    font-size: 1.5rem;
+    justify-content: center;
+    height: 200px;
+}
+
+.dashboard .stats .revenue {
+    display: flex;
+    margin: 1% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+    box-shadow: 0 0 10px rgb(32, 40, 46);
+    border-radius: 5px;
+    height: auto;
+    width: 15%;
+    flex-direction: row;
+    font-size: 1.5rem;
+    justify-content: center;
+    height: 200px;
+}
+
+.dashboard .recent {
+    display: flex;
+    margin: 1% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+    box-shadow: 0 0 10px rgb(32, 40, 46);
+    border-radius: 5px;
+    height: auto;
+    width: 95%;
+    flex-direction: column;
+}
+
+.dashboard .recent p {
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.dashboard .recent table {
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+

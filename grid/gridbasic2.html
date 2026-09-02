@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            gap: 10px;
+            height: 90vh;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-areas: 
+            "box1 box2 box2 box4"
+            "box1 box3 box5 box4"
+            "box6 box6 box5 box7"
+            "box6 box6 box9 box9";
+        }
+        
+        .container .box {
+            border-radius: 5px;
+            min-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" style="grid-area: box1; background-color: aqua;"></div>
+        <div class="box" style="grid-area: box2; background-color: lightcoral;"></div>
+        <div class="box" style="grid-area: box3; background-color: lightgreen;"></div>
+        <div class="box" style="grid-area: box4; background-color: lightblue;"></div>
+        <div class="box" style="grid-area: box5; background-color: lightpink;"></div>
+        <div class="box" style="grid-area: box6; background-color: lightyellow;"></div>
+        <div class="box" style="grid-area: box7; background-color: lightgray;"></div>
+        <div class="box" style="grid-area: box9; background-color: lightseagreen;"></div>
+    </div>
+</body>
+</html>
