@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            height: 97vh;
+        }
+        .container .dashboard .box {
+            border-radius: 5px;
+            min-height: 80px;
+            min-width: 200px;
+            border: 1px solid black;
+            display:grid;
+            align-items: center;
+            justify-content: center;
+        }
+        .container .dashboard {
+            display: grid;
+            gap: 10px;
+            height: 90vh;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-areas: 
+            "box1 box1 box1"
+            "box2 box3 box3"
+            "box2 box3 box3"
+            "box2 box4 box5"
+            "box6 box6 box6";
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>DASHBOARD LAYOUT</h1>
+        <div class="dashboard">
+            <div class="box" style="grid-area: box1; background-color:aqua"><p>HEADER</p></div>
+            <div class="box" style="grid-area: box2; background-color:coral"><p>SIDEBAR</p></div>
+            <div class="box" style="grid-area: box3; background-color:aquamarine"><p>MAIN CONTENT</p></div>
+            <div class="box" style="grid-area: box4; background-color:bisque"><p>CARD1</p></div>
+            <div class="box" style="grid-area: box5; background-color:bisque"><p>CARD2</p></div>
+            <div class="box" style="grid-area: box6; background-color:lightgray"><p>FOOTER</p></div>
+        </div>
+    </div>
+</body>
+</html>
